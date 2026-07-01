@@ -6,9 +6,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <h1>Progetto DC Comics Inizializzato</h1>
     </>
   );
 }
