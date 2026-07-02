@@ -17,7 +17,7 @@ export const Footer = () => {
                             <li><a href="#news">News</a></li>
                         </ul>
 
-                        <h3 style={{ marginTop: '15px' }}>SHOP</h3>
+                        <h3 >SHOP</h3>
                         <ul>
                             <li><a href="#shop-help">Shop Help</a></li>
                             <li><a href="#contact">Contact Us</a></li>
@@ -63,7 +63,6 @@ export const Footer = () => {
 
                 <div className="social-container">
                     <span>FOLLOW US</span>
-                    {/* I link alle immagini puntano direttamente alla cartella public/img/ */}
                     <img src="/img/footer-facebook.png" alt="Facebook" />
                     <img src="/img/footer-twitter.png" alt="Twitter" />
                     <img src="/img/footer-youtube.png" alt="YouTube" />
