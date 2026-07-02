@@ -22,6 +22,7 @@ export const Footer = () => {
                             <li><a href="#shop-help">Shop Help</a></li>
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
+                        <img src="/img/dc-logo-bg.png" alt="DC Logo Big" className="big-logo-bg" />
                     </div>
 
 

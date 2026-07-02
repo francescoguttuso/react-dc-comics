@@ -88,3 +88,33 @@ footer {
     cursor: pointer;
     transition: transform 0.2s;
 }
+
+.footer-top {
+    background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #303030;
+    padding: 40px 10%;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.big-logo-bg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    height: 150%;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+
+.columns-container {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    z-index: 2;
+}
