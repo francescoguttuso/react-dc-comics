@@ -1,20 +1,31 @@
 main {
-    background-color: #1c1c1c;
-    min-height: 150px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 40px 10%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: -17px;
 }
 
-.content-placeholder {
-    text-align: left;
+main .container {
+  text-align: center;
+  width: 100vw;
+  margin: 0 auto;
+  max-height: 100vh;
 }
 
-.content-placeholder h2 {
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+main .container p {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+main .container img {
+  width: 100%;
+  margin-top: 20px;
+  max-height: 220px;
+  object-fit: cover;
+  object-position: top;
 }
