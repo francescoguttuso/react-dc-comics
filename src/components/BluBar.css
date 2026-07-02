@@ -17,3 +17,13 @@
     gap: 12px;
     cursor: pointer;
 }
+
+.blu-bar img {
+    height: 50px;
+    max-width: 55px;
+    object-fit: contain;
+}
+
+.blu-bar span {
+    color: #ffffff;
+}
