@@ -10,3 +10,10 @@
     padding: 0;
     gap: 20px;
 }
+
+.blu-bar li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
