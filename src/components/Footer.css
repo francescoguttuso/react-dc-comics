@@ -1,0 +1,14 @@
+footer {
+    background-color: #303030;
+    width: 100%;
+}
+
+
+.footer-top {
+
+    background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #303030;
+    padding: 40px 10%;
+}
