@@ -2,13 +2,13 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1200px;
-  margin-top: -17px;
+
+  background-color: #1a1a1a;
 }
 
 main .container {
   text-align: center;
-  width: 100vw;
+
   margin: 0 auto;
   max-height: 100vh;
 }
@@ -23,8 +23,7 @@ main .container p {
 }
 
 main .container img {
-  width: 100%;
-  margin-top: 20px;
+  min-width: 1520px;
   max-height: 220px;
   object-fit: cover;
   object-position: top;
