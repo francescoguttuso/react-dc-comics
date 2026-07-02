@@ -1,5 +1,5 @@
 import "./Main.css";
-import "./data/comics.js";
+import "src/data/comics.jssrc";
 
 export const Main = () => {
   return (
