@@ -1,76 +1,89 @@
 import "./Footer.css";
 
+const menus = [
+  {
+    id: 1,
+    name: "DC COMICS",
+    links: [
+      { id: 1, href: "#", text: "Characters" },
+      { id: 2, href: "#", text: "Comics" },
+      { id: 3, href: "#", text: "Movies" },
+      { id: 4, href: "#", text: "TV" },
+      { id: 5, href: "#", text: "Games" },
+      { id: 6, href: "#", text: "Videos" },
+      { id: 7, href: "#", text: "News" },
+    ],
+  },
+  {
+    id: 2,
+    name: "SHOP",
+    links: [
+      { id: 1, href: "#", text: "Shop DC" },
+      { id: 2, href: "#", text: "Shop DC Collectibles" },
+    ],
+  },
+  {
+    id: 3,
+    name: "DC",
+    links: [
+      { id: 1, href: "#", text: "Term of Use" },
+      { id: 2, href: "#", text: "Privaci Police (New)" },
+      { id: 3, href: "#", text: "Ad Choices" },
+      { id: 4, href: "#", text: "Advertising" },
+      { id: 5, href: "#", text: "Jobs" },
+      { id: 6, href: "#", text: "Subscriptions" },
+      { id: 7, href: "#", text: "Talent Workshops" },
+      { id: 8, href: "#", text: "CPSC Certificates" },
+      { id: 9, href: "#", text: "Ratings" },
+      { id: 10, href: "#", text: "Shop Help" },
+      { id: 11, href: "#", text: "Contact Us" },
+    ],
+  },
+  {
+    id: 4,
+    name: "SITES",
+    links: [
+      { id: 1, href: "#", text: "DC" },
+      { id: 2, href: "#", text: "MAD Magazine " },
+      { id: 3, href: "#", text: "DC Kids" },
+      { id: 4, href: "#", text: "DC Universe" },
+      { id: 5, href: "#", text: "DC Power Visa" },
+    ],
+  },
+];
+
 export const Footer = () => {
-    return (
-        <footer>
-            <div className="footer-top">
-                <div className="columns-container">
-                    <div className="column">
-                        <h3>DC COMICS</h3>
-                        <ul>
-                            <li><a href="#characters">Characters</a></li>
-                            <li><a href="#comics">Comics</a></li>
-                            <li><a href="#movies">Movies</a></li>
-                            <li><a href="#tv">TV</a></li>
-                            <li><a href="#games">Games</a></li>
-                            <li><a href="#videos">Videos</a></li>
-                            <li><a href="#news">News</a></li>
-                        </ul>
-
-                        <h3 >SHOP</h3>
-                        <ul>
-                            <li><a href="#shop-help">Shop Help</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                        </ul>
-                        <img src="/img/dc-logo-bg.png" alt="DC Logo Big" className="big-logo-bg" />
-                    </div>
-
-
-                    <div className="column">
-                        <h3>DC</h3>
-                        <ul>
-                            <li><a href="#terms">Terms Of Use</a></li>
-                            <li><a href="#privacy">Privacy policy (New)</a></li>
-                            <li><a href="#ad-choices">Ad Choices</a></li>
-                            <li><a href="#advertising">Advertising</a></li>
-                            <li><a href="#jobs">Jobs</a></li>
-                            <li><a href="#subscriptions">Subscriptions</a></li>
-                            <li><a href="#talent">Talent Workshops</a></li>
-                            <li><a href="#ratings">CPSC Certificates</a></li>
-                            <li><a href="#ratings">Ratings</a></li>
-                            <li><a href="#shop-help">Shop Help</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-
-                    <div className="column">
-                        <h3>SITES</h3>
-                        <ul>
-                            <li><a href="#dc">DC</a></li>
-                            <li><a href="#mad">MAD Magazine</a></li>
-                            <li><a href="#kids">DC Kids</a></li>
-                            <li><a href="#universe">DC Universe</a></li>
-                            <li><a href="#power-visa">DC Power Visa</a></li>
-                        </ul>
-                    </div>
-
-                </div>
+  return (
+    <footer>
+      <div className="footer-top">
+        <div className="columns-container">
+          {menus.map((menu) => (
+            <div className="column" key={menu.id}>
+              <h3>{menu.name}</h3>
+              <ul>
+                {menu.links.map((link) => (
+                  <li key={link.id}>
+                    <a href={link.href}>{link.text}</a>
+                  </li>
+                ))}
+              </ul>
             </div>
+          ))}
+        </div>
+      </div>
 
+      <div className="footer-bottom">
+        <button type="button">SIGN-UP NOW!</button>
 
-            <div className="footer-bottom">
-                <button type="button">SIGN-UP NOW!</button>
-
-                <div className="social-container">
-                    <span>FOLLOW US</span>
-                    <img src="/img/footer-facebook.png" alt="Facebook" />
-                    <img src="/img/footer-twitter.png" alt="Twitter" />
-                    <img src="/img/footer-youtube.png" alt="YouTube" />
-                    <img src="/img/footer-pinterest.png" alt="Pinterest" />
-                    <img src="/img/footer-periscope.png" alt="Periscope" />
-                </div>
-            </div>
-        </footer>
-    );
+        <div className="social-container">
+          <span>FOLLOW US</span>
+          <img src="/img/footer-facebook.png" alt="Facebook" />
+          <img src="/img/footer-twitter.png" alt="Twitter" />
+          <img src="/img/footer-youtube.png" alt="YouTube" />
+          <img src="/img/footer-pinterest.png" alt="Pinterest" />
+          <img src="/img/footer-periscope.png" alt="Periscope" />
+        </div>
+      </div>
+    </footer>
+  );
 };
