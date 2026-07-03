@@ -1,120 +1,139 @@
 footer {
-    background-color: #303030;
-    width: 100%;
+  background-color: #303030;
+  width: 100%;
 }
 
-
 .footer-top {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #303030;
+  padding: 40px 10%;
+  position: relative;
+  overflow: hidden;
+}
 
-    background-image: url('/img/footer-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: #303030;
-    padding: 40px 10%;
+.footer-top .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
 
 .columns-container {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.columns-wrapper {
+  display: flex;
+  gap: 50px;
 }
 
 .column h3 {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 12px;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 .column ul {
-    list-style: none;
-    margin: 0 0 20px 0;
-    padding: 0;
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 .column li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .column a {
-    color: #959595;
-    text-decoration: none;
-    font-size: 13px;
-    transition: color 0.2s;
+  color: #959595;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
 }
 
 .column a:hover {
-    color: #ffffff;
-}
-
-.footer-bottom {
-    background-color: #303030;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-.footer-bottom button {
-    background-color: transparent;
-    border: 2px solid #0282f9;
-    color: #ffffff;
-    padding: 12px 18px;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.footer-bottom button:hover {
-    background-color: #0282f9;
-}
-
-.social-container {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.social-container span {
-    color: #0282f9;
-    font-weight: bold;
-    font-size: 15px;
-    margin-right: 5px;
-}
-
-.social-container img {
-    height: 30px;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.footer-top {
-    background-image: url('/img/footer-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: #303030;
-    padding: 40px 10%;
-
-    position: relative;
-    overflow: hidden;
+  color: #ffffff;
 }
 
 .big-logo-bg {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    height: 150%;
-    z-index: 1;
-    pointer-events: none;
-    opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
+  height: 140%;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.5;
 }
 
+.footer-bottom {
+  background-color: #303030;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
 
-.columns-container {
-    display: flex;
-    gap: 50px;
-    position: relative;
-    z-index: 2;
+.footer-bottom .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom button {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  color: #ffffff;
+  padding: 12px 18px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
+}
+
+.footer-bottom button:hover {
+  background-color: #0282f9;
+}
+
+.footer-bottom button:active {
+  transform: scale(0.98);
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-container span {
+  color: #0282f9;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.social-container img {
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-container img:hover {
+  transform: scale(1.15);
 }

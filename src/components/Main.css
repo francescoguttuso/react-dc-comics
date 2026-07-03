@@ -13,19 +13,25 @@ main .container {
   max-height: 100vh;
 }
 
-main .container p {
+main .container h1 {
   color: #ffffff;
-  font-size: 28px;
+  background-color: #0282f9;
+  font-size: 25px;
   font-weight: bold;
+  padding: 5px 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: left;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
 }
 
-main .container img {
-  width: 100%;
-  height: auto;
-  max-height: 220px;
-  object-fit: cover;
-  object-position: top;
+main .jumbotron {
+  position: relative;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  min-height: 320px;
+  min-width: 100vw;
+  background-position: center top;
 }

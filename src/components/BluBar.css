@@ -1,29 +1,32 @@
 .blu-bar {
-    background-color: #0282f9;
-    padding: 40px 10%;
-    width: 100%;
+  background-color: #0282f9;
+  padding: 40px 10%;
+  width: 100%;
 }
 
 .blu-bar ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  list-style: none;
 }
 
 .blu-bar li {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
 }
 
 .blu-bar img {
-    height: 50px;
-    max-width: 55px;
-    object-fit: contain;
+  height: 50px;
+  max-width: 55px;
+  object-fit: contain;
 }
 
 .blu-bar span {
-    color: #ffffff;
+  color: #ffffff;
 }
