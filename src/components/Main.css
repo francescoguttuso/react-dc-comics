@@ -2,15 +2,23 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-
   background-color: #1a1a1a;
+  border: 1px solid #f9021b;
 }
 
 main .container {
   text-align: center;
-
   margin: 0 auto;
   max-height: 100vh;
+}
+
+main .jumbotron {
+  position: relative;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  min-height: 320px;
+  min-width: 100vw;
+  background-position: center top;
 }
 
 main .container h1 {
@@ -27,11 +35,5 @@ main .container h1 {
   transform: translate(-50%, -50%);
 }
 
-main .jumbotron {
-  position: relative;
-  background-image: url("/img/jumbotron.jpg");
-  background-size: cover;
-  min-height: 320px;
-  min-width: 100vw;
-  background-position: center top;
+main .cards {
 }
