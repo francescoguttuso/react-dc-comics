@@ -1,15 +1,24 @@
 main {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  background-color: #1a1a1a;
-  border: 1px solid #f9021b;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding-bottom: 20px;
 }
 
 main .container {
-  text-align: center;
   margin: 0 auto;
-  max-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+main .comics-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 main .jumbotron {
@@ -35,5 +44,9 @@ main .container h1 {
   transform: translate(-50%, -50%);
 }
 
-main .cards {
+.cards img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
