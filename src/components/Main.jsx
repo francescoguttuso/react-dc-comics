@@ -17,6 +17,7 @@ export const Main = () => {
             </div>
           ))}
         </div>
+        <button className="load-more">LOAD MORE </button>
       </div>
     </main>
   );
