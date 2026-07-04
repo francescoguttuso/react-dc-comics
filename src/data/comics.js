@@ -15,7 +15,7 @@ const comics = [
   },
   {
     id: 2,
-    title: "American Vampire 1976 #1",
+    title: "American Vampire 1976 ",
     description:
       "America is broken. Trust between the government and the American public has crumbled. Paranoia reigns supreme. It's 1976, and this is the concluding chapter of the Eisner Award-winning American Vampire! Skinner Sweet has exhausted all efforts to regain his lost immortality. With his powers and purpose gone, he is now determined to go out with a bang. At a seedy motorcycle rally in the desert where he's closer than ever to his death wish, Pearl Jones and a shocking partner track him down for one last, desperate mission: The force known as the Gray Trader and its minions are tunneling through the bowels of the world to unleash hell on Earth—just in time for America's bicentennial. With catastrophe looming, it's up to Skinner and Pearl to reconcile and change the course of history—or die trying. The series that launched the careers of superstars Scott Snyder and Rafael Albuquerque returns for nine final issues and the closing chapter of the legacy of American Vampire.",
     thumb:
@@ -57,7 +57,7 @@ const comics = [
   },
   {
     id: 5,
-    title: "Batman #56",
+    title: "Batman ",
     description:
       "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
     thumb:
@@ -71,7 +71,7 @@ const comics = [
   },
   {
     id: 6,
-    title: "Batman Beyond #1",
+    title: "Batman Beyond ",
     description:
       "“THE RETURN” part one! Terry McGinnis is back as Batman, much to the delight of his family and friends. But is the original Joker really back as well? Inspired by the possible return of their role model, the Jokerz have taken over an entire section of Gotham City and are determined to wreak havoc in the still-rebuilding city. While Batman battles chaos on the streets, his friend Dana is at the mercy of the new leader of the now-unified gang.",
     thumb:
@@ -85,7 +85,7 @@ const comics = [
   },
   {
     id: 7,
-    title: "Batman/Superman #1",
+    title: "Batman/Superman ",
     description:
       "Up in the sky, in the dark of the night, trust no one - for the infected walk among us. Spinning out of the devastating events of THE BATMAN WHO LAUGHS, Superman and Batman are together once more in an all-new monthly series - and they're facing a terrifying new threat that could strike from anywhere. The Dark Knight and the Man of Steel must journey into the depths of Gotham City to learn which of their fellow heroes has been transformed into the horrifying horseman of their most dangerous and deranged foe ever. Our heroes will need to fight to survive, but an even more dangerous question lurkes in the shadows: Can Superman and Batman even trust each other?",
     thumb:
@@ -99,7 +99,7 @@ const comics = [
   },
   {
     id: 8,
-    title: "Batman/Superman Annual #1",
+    title: "Batman/Superman Annual ",
     description:
       "On a dark and stormy night in the fifth dimension, two mortal foes meet to settle an age-old question once and for all: In a fight between Batman and Superman, who would win? The combatants? Mr. Mxyzptlk and Bat-Mite. And in this battle for the ages, you will find out if a fifth-dimensional imp can bleed. It’s all in this, the ultimate slugfest between the Dark Knight and the Man of Steel-plus a whole lot of magic!",
     thumb:
@@ -113,7 +113,7 @@ const comics = [
   },
   {
     id: 9,
-    title: "Batman: The Joker War Zone #1",
+    title: "Batman: The Joker War Zone ",
     description:
       "Gotham City is a battleground as The Joker takes over the Wayne fortune and wages a street war against the Dark Knight and his allies! Enter the “war zone” with short stories featuring characters like Cassandra Cain, Stephanie Brown, and Luke Fox and see how they’re fighting back in a city under siege! Also, the brutal full debut of the mysterious new anti-hero known as Clownhunter!",
     thumb:
@@ -133,7 +133,7 @@ const comics = [
   },
   {
     id: 10,
-    title: "Batman: Three Jokers #1",
+    title: "Batman: Three Jokers ",
     description:
       "Thirty years after Batman: The Killing Joke changed comics forever, Three Jokers reexamines the myth of who, or what, The Joker is and what at the heart of his eternal battle with Batman. New York Times bestselling writer Geoff Johns and Jason Fabok reunite to tell the ultimate story of Batman and The Joker!",
     thumb:
@@ -147,7 +147,7 @@ const comics = [
   },
   {
     id: 11,
-    title: "Batman: White Knight Presents: Harley Quinn #1",
+    title: "Batman: White Knight Presents: Harley Quinn ",
     description:
       "The Joker is dead, Bruce Wayne is behind bars...and Gotham City is just starting to redefine itself without Batman.",
     thumb:
