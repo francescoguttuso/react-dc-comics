@@ -42,8 +42,8 @@ main .container h1 {
   letter-spacing: 2px;
   text-transform: uppercase;
   position: absolute;
-  top: 53%;
-  left: 30%;
+  top: 48%;
+  left: 16%;
   transform: translate(-50%, -50%);
 }
 
