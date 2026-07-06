@@ -33,9 +33,9 @@ header a {
   transition: color 0.2s;
 }
 
-.active {
+header .active {
   border-bottom: 6px solid #0282F9;
-  padding-bottom: 50px;
+  padding-bottom: 44px;
 }
 
 
