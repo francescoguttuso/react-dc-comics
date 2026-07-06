@@ -69,6 +69,7 @@ export const Footer = () => {
               </ul>
             </div>
           ))}
+          <img className="big-logo-bg" src="/img/dc-logo-bg.png" alt="DC Logo Background" />
         </div>
       </div>
 
