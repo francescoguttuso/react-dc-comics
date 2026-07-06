@@ -67,8 +67,8 @@ const Logo = () => <img src="img/dc-logo.png" alt="Logo" />;
 const Navbar = () => (
   <ul>
     {links.map((link) => (
-      <li>
-        <a key={link.id} href={link.href} className={link.active ? "active" : ""}>
+      <li key={link.id}>
+        <a href={link.href} className={link.active ? "active" : ""}>
           {link.text}
         </a>
       </li>
