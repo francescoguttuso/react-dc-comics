@@ -68,7 +68,7 @@ const Navbar = () => (
   <ul>
     {links.map((link) => (
       <li key={link.id}>
-        <a href={link.href} className={link.active ? "active" : ""}>
+        <a href={link.href} className={link.active ? "active" : "undefined"}>
           {link.text}
         </a>
       </li>
