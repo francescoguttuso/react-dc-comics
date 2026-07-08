@@ -13,7 +13,6 @@ export const Main = () => {
         <div className="comics-grid">
           {comics.map((comic) => (
             <Card key={comic.id} thumb={comic.thumb} title={comic.title} />
-
           ))}
         </div>
         <button className="load-more">LOAD MORE </button>
