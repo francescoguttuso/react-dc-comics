@@ -1,5 +1,5 @@
 import "./Main.css";
-
+import comics from "../data/comics.js";
 import { Card } from "./Card.jsx";
 
 const Jumbotron = () => <div className="jumbotron" />;
